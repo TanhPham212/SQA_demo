@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Movie Seat Booking</title>
+  </head>
+  <body>
+
+<div class="container">
+    <ul class="showcase">
+      <li>
+        <div class="seat"></div>
+        <small>Available</small>
+      </li>
+
+      <li>
+        <div class="seat selected"></div>
+        <small>Selected</small>
+      </li>
+
+      <li>
+        <div class="seat occupied"></div>
+        <small>Sold</small>
+      </li>
+    </ul>
+
+    <div class="container-seat">
+      <div class="screen"></div>
+      <div class="row number">
+        <div class="seatNumber">1</div>
+        <div class="seatNumber">2</div>
+        <div class="seatNumber">3</div>
+        <div class="seatNumber">4</div>
+        <div class="seatNumber">5</div>
+        <div class="seatNumber">6</div>
+        <div class="seatNumber">7</div>
+        <div class="seatNumber">8</div>
+        <div class="seatNumber">9</div>
+        <div class="seatNumber">10</div>
+        
+        
+      </div>
+      <div class="row">
+        <div class="rowNameLetf">A</div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="rowName">A</div>
+      </div>
+      <div class="row">
+        <div class="rowNameLetf">B</div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="rowName">B</div>
+        
+      </div>
+      <div class="row">
+        <div class="rowNameLetf">C</div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="rowName">C</div>
+      </div>
+      <div class="row">
+        <div class="rowNameLetf">D</div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="rowName">D</div>
+      </div>
+
+      <div class="row">
+        <div class="rowNameLetf">E</div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="rowName">E</div>
+      </div>
+  
+
+      <div class="row">
+        <div class="rowNameLetf">F</div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="rowName">F</div>
+      </div>
+
+      <div class="row">
+        <div class="rowNameLetf">G</div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="rowName">G</div>
+      </div>
+      <div class="row">
+        <div class="rowNameLetf">H</div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="rowName">H</div>
+      </div>
+    <!-- <p class="text">
+      The total price of <span id="count">0</span> seats is $<span id="total">0</span>
+    </p> -->
+    <a href="order2.html" class="button">Comfirm</a>
+</div>
+</div>
+<div class="movie-container">
+  <label>Choose seats</label>
+  <select id="movie">
+  </select>
+  <div class="text">
+  <div class="seatNo">Number of seats: <span id="count">0</span></div>
+  <div>Seats: <span id="seatName"></span> </div>
+  <div class="total">Price: $<span id="total">0</span></div>
+  </div>
+   </div>
+</div>
+
+
+  <script src="script.js"></script>
+  </body>
+</html>

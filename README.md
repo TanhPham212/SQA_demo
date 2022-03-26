@@ -5,4 +5,6 @@ Library used:
   styled-components
   axios
   react-scripts
- 
+Install those library first then use 
+  npm start 
+to run
